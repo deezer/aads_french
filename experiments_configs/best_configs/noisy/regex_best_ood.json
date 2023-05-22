@@ -1,0 +1,20 @@
+{
+  "regex_type": "regexByszuk",
+  "word_tokenizer": "spacy_tokenization",
+  "data_dir": "data/aggregated_corpus.json",
+  "output_dir": "data/output/regex/",
+  "do_train": "False",
+  "do_eval": "True",
+  "do_predict": "True",
+  "per_file_evaluation": "True",
+  "eval_on_main": "False",
+  "eval_on_noisy": "True",
+  "token_level_precision_recall_fscore": "True",
+  "strict_match_precision_recall_fscore": "True",
+  "purity_coverage": "True",
+  "FairEval_precision_recall_fscore": "True",
+  "zonemap": "True",
+  "aggregation_methods": "['mean', 'min', 'max', 'std']",
+  "eval_save_dir": "results/best/noisy/regex/",
+  "save_prediction_files": "True"
+}

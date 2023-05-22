@@ -1,0 +1,25 @@
+{
+    "regex_type":"regexByszuk",
+    "dash_threshold":0,
+    "word_tokenizer":"spacy_tokenization",
+
+    "output_dir":"output/",
+    "data_dir": "new_content_preprocessed/new_corpus.json",
+
+    "do_train":"False",
+    "do_eval":"False",
+    "do_predict":"True",
+
+    "per_file_evaluation":"False",
+    "eval_on_main":"False",
+    "eval_on_ood":"False",
+    "token_level_precision_recall_fscore":"False",
+    "strict_match_precision_recall_fscore":"False",
+    "purity_coverage":"False",
+    "FairEval_precision_recall_fscore":"False",
+    "zonemap":"False",
+    "aggregation_methods":"[]",
+
+    "eval_save_dir":"output/regex/",
+    "save_prediction_files":"True"
+}

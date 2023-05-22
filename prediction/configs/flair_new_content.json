@@ -1,0 +1,42 @@
+{
+    "task_name": "ds",
+
+    "model_type": "flair",
+    "model_natural_name":"bilstm_flair_fasttext",
+
+    "dataset_name":"wdsr",
+
+    "embedding_name":"flair_stacked_fasttext",
+    "label_column_name":"NaN",
+
+    "seed":0,
+    "max_len":192,
+    "batch_len":8,
+    "max_epochs":10,
+    "do_shuffle":"False",
+    "use_crf":"True",
+    "rnn_layers":2,
+    "hidden_size":256,
+    "learning_rate":0.1,
+
+    "output_dir": "/data/final/models/flair/",
+
+    "data_dir":"new_content_preprocessed/",
+    "do_train": "False",
+    "do_eval": "False",
+    "do_predict": "True",
+    "overwrite_output_dir": "False",
+
+    "per_file_evaluation":"False",
+    "eval_on_main":"False",
+    "eval_on_ood":"False",
+    "token_level_precision_recall_fscore":"False",
+    "strict_match_precision_recall_fscore":"False",
+    "purity_coverage":"False",
+    "FairEval_precision_recall_fscore":"False",
+    "zonemap":"False",
+    "aggregation_methods":"[]",
+
+    "eval_save_dir":"output/flair/",
+    "save_prediction_files":"True"
+}
